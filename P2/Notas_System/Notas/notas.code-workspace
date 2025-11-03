@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "notas",
+			"path": ".."
+		},
+		{
+			"name": "usuarios",
+			"path": "../../usuarios"
+		},
+		{
+			"name": "__pycache__",
+			"path": "../../__pycache__"
+		}
+	]
+}
