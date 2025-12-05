@@ -101,7 +101,7 @@ class Controlador:
 
 
     # ----------------------------------------
-    # 3. CAMIONES (Métodos del 3 DICIEMBRE: 2.1 a 2.4)
+    # 3. CAMIONES (Métodos del 5 DICIEMBRE: 1.1 a 1.4)
     # ----------------------------------------
 
     @staticmethod
@@ -145,4 +145,5 @@ class Controlador:
             messagebox.showwarning("Faltan Datos", "Debe ingresar el ID del Camión a borrar.")
             return
         if GestorVehicular.borrar_camion(id_camion):
+
             messagebox.showinfo("Éxito", f"Camión con ID {id_camion} eliminado correctamente.")
